@@ -17,6 +17,7 @@ a:hover, a:focus, button:hover, button:focus{ text-decoration: none; outline: 0;
 img{ max-width: 100%; }
 iframe{ max-width: 100%; margin-bottom: 20px; }
 select{ border: none; }
+input:focus{ outline: 0; }
 .row{ margin-bottom: 0; }
 .reset{ clear: both;}
 .mobile{ display: none;}
@@ -90,7 +91,7 @@ section{ padding: 80px 0 120px; }
 #stage h1{ font-size: 37px; line-height: 44px; color: #28374C; font-weight: 700; margin-bottom: 20px;}
 #stage h2{ font-size: 30px; line-height: 36px; color: #28374C; font-weight: 400; }
 #stage h1 + h2{ margin-bottom: 30px; }
-#stage input{ font-size: 18px; line-height: 22px; border: none; border: 1px solid rgba(141,141,141,0.5); border-radius: 20px; width: 350px; max-width: 100%; display: inline-block; padding: 10px 15px; padding-left: 60px;}
+#stage input{ font-size: 18px; line-height: 22px; border: none; border: 1px solid rgba(141,141,141,0.5); border-radius: 20px; width: 350px; max-width: 100%; display: inline-block; padding: 10px 15px; padding-left: 60px; background-repeat: no-repeat; background-image: url('../img/magnify.png'); background-size: 24px 24px; background-position: 20px center;}
 #stage input.large{ width: 540px; }
 #stage img{ display: none; }
 #stage-simple{ padding: 75px 0; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url('../img/bg-simple.png');}
