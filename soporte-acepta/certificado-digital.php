@@ -11,7 +11,7 @@
 					<h1>
 						Certificado Digital
 					</h1>
-					<form action="results.php">
+					<form action="">
 						<input type="text" class="large" placeholder="Búsqueda">
 					</form>
 				</div>
@@ -144,7 +144,7 @@
 								</div>
 								<div class="accordion">
 									<a href="" class="accordion-trigger">
-										Ver el listado completo
+										Listado de revocación (CRL)
 									</a>
 									<div class="accordion-body">
 										<ul>
@@ -211,10 +211,45 @@
 								</h3>
 								<div class="accordion">
 									<a href="" class="accordion-trigger">
-										Listado de revocación (CRL)
+										Ver listado completo
 									</a>
 									<div class="accordion-body">
-										
+										<ul>
+											<li>
+												Autoridad Certificadora G3
+											</li>
+											<li>
+												<a href="">
+													Certificado Raíz G3
+												</a>
+											</li>
+											<li>
+												<a href="">
+													Certificado Intermedio Clase2 G3
+												</a>
+											</li>
+											<li>
+												<a href="">
+													Certificado Intermedio Clase3 G3
+												</a>
+											</li>
+										</ul>
+
+										<ul>
+											<li>
+												Autoridad Certificadora V2
+											</li>
+											<li>
+												<a href="">
+													Certificado Raíz V2
+												</a>
+											</li>
+											<li>
+												<a href="">
+													Certificado Intermedio Clase 3 Presencial V2
+												</a>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</div>

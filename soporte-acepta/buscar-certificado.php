@@ -18,7 +18,7 @@
 				<div class="col-12">
 					<iframe src="https://acg4.acepta.com/cgi-bin/consultar_certificados_gral" width="100%" height="250" frameborder="0"></iframe>
 				</div>
-				<div class="col-md-12">
+				<!-- <div class="col-md-12">
 					<div class="buscar-item">
 						<p>
 							Ingrese e-mail del Certificado:
@@ -58,7 +58,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

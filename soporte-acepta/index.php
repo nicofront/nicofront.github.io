@@ -11,7 +11,7 @@
 					<h2>
 						¿Con qué solución necesitas ayuda?
 					</h2>
-					<form action="results.php">
+					<form action="">
 						<input type="text" placeholder="Búsqueda">
 					</form>
 				</div>

@@ -11,7 +11,7 @@
 					<h1>
 						Firma Electrónica Avanzada
 					</h1>
-					<form action="results.php">
+					<form action="">
 						<input type="text" class="large" placeholder="Búsqueda">
 					</form>
 				</div>
@@ -291,17 +291,12 @@
 						<div class="col-lg-4">
 							<div class="subpost">
 								<h3>
-									Información del Certificado Digital
+									Información de la Firma Avanzada
 								</h3>
 								<ul>
 									<li>
 										<a href="" class="link">
-											Estado del Certificado Digital
-										</a>
-									</li>
-									<li>
-										<a href="" class="link">
-											Descarga el Certificado Digital
+											Estado de tu Firma Avanzada
 										</a>
 									</li>
 									<li>
@@ -315,11 +310,11 @@
 						<div class="col-lg-4">
 							<div class="subpost">
 								<h3>
-									Revocación del Certificado Digital
+									Revocación de la Firma Avanzada
 								</h3>
 								<div class="accordion">
 									<a href="" class="accordion-trigger">
-										¿Cómo revocar tu Certificado Digital?
+										¿Cómo revocar tu Firma Avanzada?
 									</a>
 									<div class="accordion-body">
 										<p>
@@ -332,7 +327,72 @@
 								</div>
 								<div class="accordion">
 									<a href="" class="accordion-trigger">
-										Ver el listado completo
+										Ver listado de revocación (CRL)
+									</a>
+									<div class="accordion-body">
+										<ul>
+											<li>
+												Autoridad Certificadora G4
+											</li>
+											<li>
+												<a href="">
+													CRL – Clase2 online G4
+												</a>
+											</li>
+											<li>
+												<a href="">
+													CRL – Clase3 Presencial G4
+												</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												Autoridad Certificadora G3
+											</li>
+											<li>
+												<a href="">
+													CRL – Clase2 online G3
+												</a>
+											</li>
+											<li>
+												<a href="">
+													CRL – Clase3 Presencial G3
+												</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												Autoridad Certificadora Raiz – V2
+											</li>
+											<li>
+												<a href="">
+													CRL – Clase 3 Presencial V2
+												</a>
+											</li>
+										</ul>
+
+										<ul>
+											<li>
+												Autoridad certificadora raiz
+											</li>
+											<li>
+												<a href="">
+													CRL – Clase 3 Presencial
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="subpost">
+								<h3>
+									Certificados Raíz anteriores
+								</h3>
+								<div class="accordion">
+									<a href="" class="accordion-trigger">
+										Ver listado completo
 									</a>
 									<div class="accordion-body">
 										<ul>
@@ -410,71 +470,6 @@
 											<li>
 												<a href="">
 													Certificados de raiz de Firma Avanzada de Otras Autoridades Certificadoras
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="subpost">
-								<h3>
-									Certificados Raíz anteriores
-								</h3>
-								<div class="accordion">
-									<a href="" class="accordion-trigger">
-										Listado de revocación (CRL)
-									</a>
-									<div class="accordion-body">
-										<ul>
-											<li>
-												Autoridad Certificadora G4
-											</li>
-											<li>
-												<a href="">
-													CRL – Clase2 online G4
-												</a>
-											</li>
-											<li>
-												<a href="">
-													CRL – Clase3 Presencial G4
-												</a>
-											</li>
-										</ul>
-										<ul>
-											<li>
-												Autoridad Certificadora G3
-											</li>
-											<li>
-												<a href="">
-													CRL – Clase2 online G3
-												</a>
-											</li>
-											<li>
-												<a href="">
-													CRL – Clase3 Presencial G3
-												</a>
-											</li>
-										</ul>
-										<ul>
-											<li>
-												Autoridad Certificadora Raiz – V2
-											</li>
-											<li>
-												<a href="">
-													CRL – Clase 3 Presencial V2
-												</a>
-											</li>
-										</ul>
-
-										<ul>
-											<li>
-												Autoridad certificadora raiz
-											</li>
-											<li>
-												<a href="">
-													CRL – Clase 3 Presencial
 												</a>
 											</li>
 										</ul>

@@ -11,7 +11,7 @@
 					<h1>
 						Servicio de Verificación de Identidad
 					</h1>
-					<form action="results.php">
+					<form action="">
 						<input type="text" class="large" placeholder="Búsqueda">
 					</form>
 				</div>

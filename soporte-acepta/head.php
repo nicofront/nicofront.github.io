@@ -46,7 +46,7 @@
 				</div>
 				<div class="col-8 col-md-4">
 					<div id="head-logo">
-						<a href="index.php" title="Logo">
+						<a href="" title="Logo">
 						</a>
 					</div>
 					<a href="" id="sandwich"></a>
