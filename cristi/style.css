@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+	font-size: 0;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	width: 800px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+table{
+	vertical-align: middle;
+	max-width: 100%;
+	width: 800px;
+	height: 100vh;
+}
+td{
+	font-size: 14px;
+	padding: 20px 30px;
+	text-align: center;
+}
+.table{
+	background-image: url('gris.jpg');
+	background-position: center;
+	background-size: cover;	
+	border-radius: 10px;
+}
+.table td{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.7);
+	color: #6d6d6d;
+}
+h2{
+	font-size: 36px;
+	line-height: 1.4;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 30px;
+}
+h3{
+	font-size: 24px;
+	line-height: 1.4;
+	font-weight: 300;
+	width: 600px;
+	max-width: 100%;
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 40px;
+}
+a{
+	display: inline-block;
+	border-radius: 10px;
+	border: none;
+	background-color: #000000;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+a:hover{
+	background-color: #e70012;
+}
+.sorpresa{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+	background-color: black;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.sorpresa.active{
+	top: 0;
+}
+.sorpresa td{
+	color: #fff;
+}
