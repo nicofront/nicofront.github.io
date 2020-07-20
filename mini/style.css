@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+	font-size: 0;
+	line-height: 1;
+	padding: 0;
+	margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+.wrapper{
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.transition{
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+
+.table{
+	width: 100%;
+	display: table;
+	margin-bottom: 30px;
+}
+.tr{
+	display: table-row;
+}
+.td{
+	display: table-cell;
+	vertical-align: top;
+}
+.tr .td:nth-child(1){
+	width: 60%;
+}
+.tr .td:nth-child(2){
+	width: 50%;
+}
+
+.button{
+	border-radius: 100px;
+	padding: 15px 30px;
+	display: inline-block;
+	border: 2px solid rgba(92, 92, 92, 0.6);
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgba(92, 92, 92, 0.6);
+	font-size: 16px;
+	line-height: 20px;
+	min-width: 85px;
+}
+.button+.button{
+	margin-left: 10px;
+}
+.button:hover{
+	color: #000;
+	border-color: #000;
+}
+.acordeon{
+	box-shadow: 0 0px 4px 0 rgba(25, 25, 25, 0.2);
+	margin-bottom: 5px;
+}
+.acordeon-head{
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+	background-color: #fff;
+	border-radius: 2px 2px 0 0;
+	border-bottom: 1px solid #dbdbdb;
+	color: #292E33;
+	font-size: 24px;
+	line-height: 37px;
+}
+.acordeon-enabled .acordeon-head{
+	background-color: #292E33;
+	color: #fff;
+	font-size: 32px;
+	line-height: 48px;
+}
+.acordeon-body{
+	padding: 25px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	min-height: 120px;
+}
+.acordeon-body img{
+	width: 100%;
+}
+.acordeon-enabled .acordeon-body{
+	display: block;
+}
+.acordeon-body p{
+	margin: 0;
+	margin-bottom: 20px;
+	color: #475059;
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 300;
+	margin-bottom: 15px;
+	padding-right: 25px;
+}
+
+@media only screen and (max-width: 560px) {
+	.table, .tr, .td{
+		display: block;
+		width: 100%;
+	}
+	.tr .td:nth-child(1), .tr .td:nth-child(2){
+		width: 100%;
+	}
+}
