@@ -42,23 +42,23 @@ body{
 
 .button{
 	border-radius: 100px;
-	padding: 15px 30px;
+	padding: 10px 20px;
 	display: inline-block;
-	border: 2px solid rgba(92, 92, 92, 0.6);
+	border: 2px solid rgba(92, 92, 92, 0.38);
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	color: rgba(92, 92, 92, 0.6);
-	font-size: 16px;
+	color: rgba(92, 92, 92, 0.38);
+	font-size: 14px;
 	line-height: 20px;
-	min-width: 85px;
+	min-width: 70px;
 }
 .button+.button{
 	margin-left: 10px;
 }
 .button:hover{
-	color: #000;
-	border-color: #000;
+	color: rgba(92, 92, 92, 0.7);
+	border-color: rgba(92, 92, 92, 0.7);
 }
 .acordeon{
 	box-shadow: 0 0px 4px 0 rgba(25, 25, 25, 0.2);
@@ -73,24 +73,23 @@ body{
 	border-bottom: 1px solid #dbdbdb;
 	color: #292E33;
 	font-size: 24px;
-	line-height: 37px;
+	line-height: 44px;
 }
 .acordeon-enabled .acordeon-head{
 	background-color: #292E33;
 	color: #fff;
-	font-size: 32px;
-	line-height: 48px;
+	font-size: 28px;
+	line-height: 44px;
 }
 .acordeon-body{
 	padding: 25px;
-	padding-bottom: 30px;
 	background-color: #fff;
 	min-height: 120px;
 	display: none;
 }
 .acordeon-body img{
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 .acordeon-body p{
 	margin: 0;
