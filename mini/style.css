@@ -24,7 +24,7 @@ body{
 .table{
 	width: 100%;
 	display: table;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .tr{
 	display: table-row;
@@ -86,12 +86,11 @@ body{
 	padding-bottom: 30px;
 	background-color: #fff;
 	min-height: 120px;
+	display: none;
 }
 .acordeon-body img{
 	width: 100%;
-}
-.acordeon-enabled .acordeon-body{
-	display: block;
+	margin-bottom: 15px;
 }
 .acordeon-body p{
 	margin: 0;
