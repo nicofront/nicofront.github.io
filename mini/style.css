@@ -101,6 +101,12 @@ body{
 	margin-bottom: 15px;
 	padding-right: 25px;
 }
+.acordeon-body p a{
+	color: inherit;
+	text-decoration: none;
+	color: #385898;
+	border-bottom: 1px solid #385898;
+}
 
 @media only screen and (max-width: 560px) {
 	.table, .tr, .td{
