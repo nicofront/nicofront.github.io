@@ -65,7 +65,7 @@ body{
 	margin-bottom: 5px;
 }
 .acordeon-head{
-	padding: 10px 20px;
+	padding: 10px 25px;
 	display: block;
 	text-decoration: none;
 	background-color: #fff;
@@ -109,6 +109,10 @@ body{
 }
 
 @media only screen and (max-width: 560px) {
+	.acordeon-head, .acordeon-body{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 	.table, .tr, .td{
 		display: block;
 		width: 100%;
