@@ -1,175 +1,149 @@
 <html>
 	<head>
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-			h2{
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 23px;
-				line-height: 27px;
-				color: #173181;
-			}
-			h3{
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 19px;
-				line-height: 22px;
-
-				/* Primario */
-				color: #173181;
-			}
-			h5{
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 14px;
-				line-height: 16px;
-			}
-			p{
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 14px;
-				line-height: 16px;
-				color: #173181;
-			}
-			label{
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 12px;
-				line-height: 14px;
-
-				/* identical to box height */
-
-				color: #9BA5B7;
-
-				border: 4px solid #FFFFFF;
-			}
-			input, select{
-				/* Grises / Blanco */
-				background: #FFFFFF;
-
-				/* Grises / Fondo */
-				border: 2px solid #EBEBEB;
-				box-sizing: border-box;
-				border-radius: 26.9px;
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: 500;
-				font-size: 14px;
-				line-height: 14px;
-				display: block;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<h2>
-			Francisco revisa y actualiza tus datos, para mantenernos comunicados contigo en caso de ser necesario.
-		</h2>
-		<div class="row">
-			<div class="col-md-2">
-				<img src="" alt="Avatar">
-			</div>
-			<div class="col-md-10">
-				<div class="row">
-					<div class="col-md-5">
-						<h5>
-							Nombre
-						</h5>
-						<p>
-							Francisco Javier Alamparte Bickel
-						</p>
-					</div>
-					<div class="col-md-5">
-						<h5>
-							RUT
-						</h5>
-						<p>
-							15.171.118-6
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3>
-							Contacto
-						</h3>
-					</div>
-					<div class="col-md-6">
-						<label for="">
-							Correo electrónico
-						</label>
-						<input type="text" value="Francisco@contacto.cl">
-					</div>
-					<div class="col-md-6">
-						<label for="">
-							Teléfono
-						</label>
-						<input type="text" value="9 87475611">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3>
-							Dirección
-						</h3>
-					</div>
-					<div class="col-md-4">
-						<label for="">
-							Calle
-						</label>
-						<input type="text" value="Carmen Covarrubias">
-					</div>
-					<div class="col-md-4">
-						<label for="">
-							Número
-						</label>
-						<input type="text" value="175">
-					</div>
-					<div class="col-md-4">
-						<label for="">
-							Block
-						</label>
-						<input type="text" value="N/A">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<label for="">
-							Departamento
-						</label>
-						<input type="text" value="905A">
-					</div>
-					<div class="col-md-4">
-						<label for="">
-							Villa o población
-						</label>
-						<input type="text" value="N/A">
-					</div>
-					<div class="col-md-4">
-						<label for="">
-							Región
-						</label>
-						<select name="" id="">
-							<option value="Metropolitana">Metropolitana</option>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<label for="">
-							Ciudad
-						</label>
-						<input type="text" value="Santiago">
-					</div>
-					<div class="col-md-4">
-						<label for="">
-							Comuna
-						</label>
-						<input type="text" value="Ñuñoa">
+		<div tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" class="modal fade bd-example-modal-md show" style="display: block; padding-left: 0px;" aria-modal="true">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">
+							<strong>
+								Francisco revisa y actualiza tus datos, para mantenernos comunicados contigo en caso de ser necesario. 
+							</strong>
+						</h5> 
+							<button type="button" data-dismiss="modal" aria-label="Close" class="close">
+								<i class="material-icons">close</i>
+							</button>
+					</div> 
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-2">
+								<img src="" alt="Avatar">
+							</div>
+							<div class="col-md-10">
+								<div class="row">
+									<div class="col-md-5">
+										<h5>
+											Nombre
+										</h5>
+										<p>
+											Francisco Javier Alamparte Bickel
+										</p>
+									</div>
+									<div class="col-md-5">
+										<h5>
+											RUT
+										</h5>
+										<p>
+											15.171.118-6
+										</p>
+									</div>
+								</div>
+								<h3>
+									Contacto
+								</h3>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group fg-icon mt-4">
+											<input type="email" id="email" placeholder="Correo electrónico" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="email">Correo electrónico</label> <small>Campo requerido</small>
+										</div> 
+									</div>
+									<div class="col-md-6">
+										<div class="form-group fg-icon mt-4">
+											<input type="text" id="phone" placeholder="Teléfono" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="phone">Teléfono</label> <small>Campo requerido</small>
+										</div> 
+									</div>
+								</div>
+								<p>
+									Acá puedes adjuntar tu “Orden Médica” y para que podamos confirmar tu diagnóstico. En 5 días hábiles enviaremos una respuesta.
+								</p> 
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group fg-icon mt-4">
+											<input type="text" id="street" placeholder="Calle" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="street">Calle</label> <small>Campo requerido</small>
+										</div> 
+									</div>	
+									<div class="col-md-4">
+										<div class="form-group fg-icon mt-4">
+											<input type="text" id="number" placeholder="Número" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="number">Número</label> <small>Campo requerido</small>
+										</div> 
+									</div>
+									<div class="col-md-4">
+										<div class="form-group fg-icon mt-4">
+											<input type="text" id="block" placeholder="Bloque" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="block">Block</label> <small>Campo requerido</small>
+										</div> 
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group fg-icon mt-4">
+											<input type="text" id="apt" placeholder="Departamento" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="apt">Departamento</label> <small>Campo requerido</small>
+										</div> 
+									</div>
+									<div class="col-md-4">
+										<div class="form-group fg-icon mt-4">
+											<input type="text" id="village" placeholder="Departamento" class="form-control"> 
+											<i class="material-icons">mail</i> 
+											<label for="village">Villa o Población</label> <small>Campo requerido</small>
+										</div> 
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<select id="exampleFormControlSelect1" class="custom-select select2">
+												<option></option> 
+												<option>Metropolitana</option> 
+											</select> 
+											<label for="exampleFormControlSelect1">Región</label> 
+											<small>Texto de ayuda y validación</small>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<select id="city" class="custom-select select2">
+												<option></option> 
+												<option>Santiago</option> 
+											</select> 
+											<label for="city">Ciudad</label> 
+											<small>Texto de ayuda y validación</small>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<select id="stage" class="custom-select select2">
+												<option></option> 
+												<option>Ñuñoa</option> 
+											</select> 
+											<label for="stage">Comuna</label> 
+											<small>Texto de ayuda y validación</small>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="modal-footer">
+						<div class="container p-0">
+							<div class="row">
+								<div class="col-6 col-md-4 offset-6 offset-md-8">
+									<button type="button" class="btn btn-primary w-100">Confirmar Datos</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
