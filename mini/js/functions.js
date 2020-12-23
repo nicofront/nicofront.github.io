@@ -26,4 +26,10 @@ $(document).ready(function() {
     first.find('.acordeon-body:first').slideDown(700);
   });
 
+  $('.xmas-toggle').click(function(event){
+    event.preventDefault();
+    $('.xmas-card').stop().slideToggle(1000);
+    $('.xmas-text').stop().slideToggle(1000);
+  });
+
 });
