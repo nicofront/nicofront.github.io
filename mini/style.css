@@ -143,7 +143,7 @@ body{
 }
 .xmas-card h6{
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	left: 0;
 	display: block;
 	width: 100%;
@@ -155,6 +155,8 @@ body{
 	font-size: 14px;
 	background-color: #29a83c;
 	margin: 0;
+	display: none;
+	z-index: 3;
 }
 .xmas-text{
 	display: none;
@@ -169,6 +171,7 @@ body{
 	top: 50%;
 	transform: translate(-50%, -50%);
 	border: 2px solid #F8A02A; ;
+	z-index: 5;
 }
 .xmas-text a{
 	display: block;
