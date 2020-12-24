@@ -127,6 +127,7 @@ body{
 }
 .xmas table{
 	width: 100%;
+	border-spacing: 0;
 }
 .xmas table td{
 	padding: 0 30px;
@@ -134,11 +135,40 @@ body{
 	text-align: center;
 	height: 100vh;
 }
+.xmas-toggle{
+	position: relative;
+}
 .xmas-card{
 	display: block;
 }
+.xmas-card h6{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	pointer-events: none;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	background-color: #29a83c;
+	margin: 0;
+}
 .xmas-text{
 	display: none;
+}
+.xmas-text:after{
+	content: '';
+	display: inline-block;
+	width: 95%;
+	height: 95%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #F8A02A; ;
 }
 .xmas-text a{
 	display: block;

@@ -32,4 +32,6 @@ $(document).ready(function() {
     $('.xmas-text').stop().slideToggle(1000);
   });
 
+  setTimeout(function(){ $('.xmas-card h6').slideUp(); }, 2000);
+
 });
